@@ -21,7 +21,7 @@ namespace Bai1
             Console.WriteLine("Vui long nhap ten cua ban vao day !!!");
             strName = Console.ReadLine();
             Console.WriteLine("Chao mung {0} da den voi chung toi :D", strName);
-            Console.WriteLine("Ban {0} bao nhieu tuoi:", strName);
+            Console.WriteLine("Ban {0} bao nhieu tuoi: ", strName);
             iAge = Int32.Parse(Console.ReadLine());
             Console.WriteLine("Ban {0} nam nay {1} tuoi", strName, iAge);
             DateTime now = DateTime.Now;
