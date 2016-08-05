@@ -1,0 +1,9 @@
+D:\C#\Exercise\Bai23\Bai23\bin\Debug\Bai23.exe
+D:\C#\Exercise\Bai23\Bai23\bin\Debug\Bai23.pdb
+D:\C#\Exercise\Bai23\Bai23\bin\Debug\WebDriver.dll
+D:\C#\Exercise\Bai23\Bai23\bin\Debug\WebDriver.Support.dll
+D:\C#\Exercise\Bai23\Bai23\bin\Debug\WebDriver.xml
+D:\C#\Exercise\Bai23\Bai23\bin\Debug\WebDriver.Support.xml
+D:\C#\Exercise\Bai23\Bai23\obj\x86\Debug\Bai23.csprojResolveAssemblyReference.cache
+D:\C#\Exercise\Bai23\Bai23\obj\x86\Debug\Bai23.exe
+D:\C#\Exercise\Bai23\Bai23\obj\x86\Debug\Bai23.pdb

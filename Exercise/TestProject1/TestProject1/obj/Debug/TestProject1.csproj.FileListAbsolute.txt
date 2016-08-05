@@ -1,0 +1,11 @@
+D:\C#\Exercise\TestProject1\TestProject1\bin\Debug\TestProject1.dll
+D:\C#\Exercise\TestProject1\TestProject1\bin\Debug\TestProject1.pdb
+D:\C#\Exercise\TestProject1\TestProject1\bin\Debug\WebDriver.dll
+D:\C#\Exercise\TestProject1\TestProject1\bin\Debug\WebDriver.Support.dll
+D:\C#\Exercise\TestProject1\TestProject1\bin\Debug\WebDriver.pdb
+D:\C#\Exercise\TestProject1\TestProject1\bin\Debug\WebDriver.xml
+D:\C#\Exercise\TestProject1\TestProject1\bin\Debug\WebDriver.Support.pdb
+D:\C#\Exercise\TestProject1\TestProject1\bin\Debug\WebDriver.Support.xml
+D:\C#\Exercise\TestProject1\TestProject1\obj\Debug\TestProject1.csprojResolveAssemblyReference.cache
+D:\C#\Exercise\TestProject1\TestProject1\obj\Debug\TestProject1.dll
+D:\C#\Exercise\TestProject1\TestProject1\obj\Debug\TestProject1.pdb

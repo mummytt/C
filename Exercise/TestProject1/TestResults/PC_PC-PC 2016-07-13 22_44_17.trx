@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="611b142b-953e-41e4-ab1a-ee8e1ff60a6b" name="PC@PC-PC 2016-07-13 22:44:17" runUser="PC-PC\PC" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="d70924e7-6fba-4600-a0f9-8d0d97118259">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="PC_PC-PC 2016-07-13 22_44_17">
+      <DeploymentItem filename="D:\C#\Selenium\selenium-dotnet-2.53.1\net40\WebDriver.dll" />
+      <DeploymentItem filename="D:\C#\Selenium\selenium-dotnet-2.53.1\net40\WebDriver.Support.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2016-07-13T22:44:17.6950279+07:00" queuing="2016-07-13T22:44:17.7440307+07:00" start="2016-07-13T22:44:17.7530312+07:00" finish="2016-07-13T22:44:28.3086350+07:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="Method1" storage="d:\c#\exercise\testproject1\testproject1\bin\debug\testproject1.dll" id="dae1c046-8631-f170-d056-5549a2a58b8f">
+      <Execution id="26d1830d-3d66-4664-9411-c309b3f96777" />
+      <Properties>
+        <Property>
+          <Key>MyProperty2</Key>
+          <Value>Small</Value>
+        </Property>
+        <Property>
+          <Key>MyProperty1</Key>
+          <Value>Big</Value>
+        </Property>
+      </Properties>
+      <TestMethod codeBase="D:/C#/Exercise/TestProject1/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.UnitTest1, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Method1" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="dae1c046-8631-f170-d056-5549a2a58b8f" executionId="26d1830d-3d66-4664-9411-c309b3f96777" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="26d1830d-3d66-4664-9411-c309b3f96777" testId="dae1c046-8631-f170-d056-5549a2a58b8f" testName="Method1" computerName="PC-PC" duration="00:00:10.1055702" startTime="2016-07-13T22:44:17.7550313+07:00" endTime="2016-07-13T22:44:28.2336307+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="26d1830d-3d66-4664-9411-c309b3f96777">
+      <Output>
+        <StdOut>hello</StdOut>
+        <ErrorInfo>
+          <Message>Test method TestProject1.UnitTest1.Method1 threw exception: 
+System.NullReferenceException: Object reference not set to an instance of an object.</Message>
+          <StackTrace>    at TestProject1.UnitTest1.Method1() in D:\C#\Exercise\TestProject1\TestProject1\UnitTest1.cs:line 49
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

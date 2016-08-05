@@ -1,0 +1,7 @@
+D:\C#\Exercise\Bai6\Bai6\bin\Debug\Bai6.exe
+D:\C#\Exercise\Bai6\Bai6\bin\Debug\Bai6.pdb
+D:\C#\Exercise\Bai6\Bai6\obj\x86\Debug\Bai6.Form1.resources
+D:\C#\Exercise\Bai6\Bai6\obj\x86\Debug\Bai6.Properties.Resources.resources
+D:\C#\Exercise\Bai6\Bai6\obj\x86\Debug\Bai6.csproj.GenerateResource.Cache
+D:\C#\Exercise\Bai6\Bai6\obj\x86\Debug\Bai6.exe
+D:\C#\Exercise\Bai6\Bai6\obj\x86\Debug\Bai6.pdb

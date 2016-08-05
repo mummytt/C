@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="5c0ca4eb-65d1-42de-8cc6-47ab6c709c4b" name="PC@PC-PC 2016-07-13 21:29:32" runUser="PC-PC\PC" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="d70924e7-6fba-4600-a0f9-8d0d97118259">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="PC_PC-PC 2016-07-13 21_29_32">
+      <DeploymentItem filename="D:\C#\Selenium\selenium-dotnet-2.53.1\net40\WebDriver.dll" />
+      <DeploymentItem filename="D:\C#\Selenium\selenium-dotnet-2.53.1\net40\WebDriver.Support.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2016-07-13T21:29:32.2104729+07:00" queuing="2016-07-13T21:29:38.8448523+07:00" start="2016-07-13T21:29:38.8628533+07:00" finish="2016-07-13T21:29:50.8865411+07:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="Method2" storage="d:\c#\exercise\testproject1\testproject1\bin\debug\testproject1.dll" id="737a9fbe-f08c-09ec-4ce0-6bfea87f1691">
+      <Execution id="f29f0e80-3f16-446f-aa44-46ef67ddec81" />
+      <TestMethod codeBase="D:/C#/Exercise/TestProject1/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.UnitTest1, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Method2" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="737a9fbe-f08c-09ec-4ce0-6bfea87f1691" executionId="f29f0e80-3f16-446f-aa44-46ef67ddec81" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="f29f0e80-3f16-446f-aa44-46ef67ddec81" testId="737a9fbe-f08c-09ec-4ce0-6bfea87f1691" testName="Method2" computerName="PC-PC" duration="00:00:11.6937092" startTime="2016-07-13T21:29:38.8668536+07:00" endTime="2016-07-13T21:29:50.7865353+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f29f0e80-3f16-446f-aa44-46ef67ddec81">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method TestProject1.UnitTest1.Method2 threw exception: 
+OpenQA.Selenium.InvalidElementStateException: Element is disabled and so may not be used for actions</Message>
+          <StackTrace>    at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse) in c:\Projects\webdriver\dotnet\src\webdriver\Remote\RemoteWebDriver.cs:line 1265
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters) in c:\Projects\webdriver\dotnet\src\webdriver\Remote\RemoteWebDriver.cs:line 1070
+   at OpenQA.Selenium.Remote.RemoteWebElement.SendKeys(String text) in c:\Projects\webdriver\dotnet\src\webdriver\Remote\RemoteWebElement.cs:line 317
+   at TestProject1.UnitTest1.Method2() in D:\C#\Exercise\TestProject1\TestProject1\UnitTest1.cs:line 41
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

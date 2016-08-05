@@ -1,0 +1,4 @@
+D:\C#\Exercise\Bai13\Bai13\bin\Debug\Bai13.exe
+D:\C#\Exercise\Bai13\Bai13\bin\Debug\Bai13.pdb
+D:\C#\Exercise\Bai13\Bai13\obj\x86\Debug\Bai13.exe
+D:\C#\Exercise\Bai13\Bai13\obj\x86\Debug\Bai13.pdb

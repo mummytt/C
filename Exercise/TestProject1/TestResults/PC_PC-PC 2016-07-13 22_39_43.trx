@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="bc07b92a-27c9-4bc9-857e-5bbbf93a7fe3" name="PC@PC-PC 2016-07-13 22:39:43" runUser="PC-PC\PC" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="d70924e7-6fba-4600-a0f9-8d0d97118259">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="PC_PC-PC 2016-07-13 22_39_43">
+      <DeploymentItem filename="D:\C#\Selenium\selenium-dotnet-2.53.1\net40\WebDriver.dll" />
+      <DeploymentItem filename="D:\C#\Selenium\selenium-dotnet-2.53.1\net40\WebDriver.Support.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2016-07-13T22:39:43.3933387+07:00" queuing="2016-07-13T22:39:43.4263406+07:00" start="2016-07-13T22:39:43.4373413+07:00" finish="2016-07-13T22:39:44.0523764+07:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="Method2" storage="d:\c#\exercise\testproject1\testproject1\bin\debug\testproject1.dll" id="737a9fbe-f08c-09ec-4ce0-6bfea87f1691">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Nightly" />
+      </TestCategory>
+      <Execution id="a6d14e80-b8c5-4922-9321-07e5cc430d72" />
+      <TestMethod codeBase="D:/C#/Exercise/TestProject1/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.UnitTest1, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Method2" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="737a9fbe-f08c-09ec-4ce0-6bfea87f1691" executionId="a6d14e80-b8c5-4922-9321-07e5cc430d72" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="a6d14e80-b8c5-4922-9321-07e5cc430d72" testId="737a9fbe-f08c-09ec-4ce0-6bfea87f1691" testName="Method2" computerName="PC-PC" duration="00:00:00.0708726" startTime="2016-07-13T22:39:43.4453417+07:00" endTime="2016-07-13T22:39:44.0263749+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a6d14e80-b8c5-4922-9321-07e5cc430d72">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method TestProject1.UnitTest1.Method2 threw exception: 
+System.NullReferenceException: Object reference not set to an instance of an object.
+TestCleanup method TestProject1.UnitTest1.clean threw exception. System.NullReferenceException: System.NullReferenceException: Object reference not set to an instance of an object..</Message>
+          <StackTrace>    at TestProject1.UnitTest1.Method2() in D:\C#\Exercise\TestProject1\TestProject1\UnitTest1.cs:line 43
+
+TestCleanup Stack Trace
+    at TestProject1.UnitTest1.clean() in D:\C#\Exercise\TestProject1\TestProject1\UnitTest1.cs:line 52
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

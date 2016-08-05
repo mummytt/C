@@ -1,0 +1,4 @@
+D:\C#\Exercise\Bai24\Bai24\bin\Debug\Bai24.exe
+D:\C#\Exercise\Bai24\Bai24\bin\Debug\Bai24.pdb
+D:\C#\Exercise\Bai24\Bai24\obj\x86\Debug\Bai24.exe
+D:\C#\Exercise\Bai24\Bai24\obj\x86\Debug\Bai24.pdb

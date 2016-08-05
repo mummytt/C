@@ -1,0 +1,4 @@
+D:\C#\Exercise\Bai21\Bai21\bin\Debug\Bai21.exe
+D:\C#\Exercise\Bai21\Bai21\bin\Debug\Bai21.pdb
+D:\C#\Exercise\Bai21\Bai21\obj\x86\Debug\Bai21.exe
+D:\C#\Exercise\Bai21\Bai21\obj\x86\Debug\Bai21.pdb

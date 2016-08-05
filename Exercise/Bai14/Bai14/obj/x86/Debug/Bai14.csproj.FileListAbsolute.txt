@@ -1,0 +1,5 @@
+D:\C#\Exercise\Bai14\Bai14\bin\Debug\Bai14.exe
+D:\C#\Exercise\Bai14\Bai14\bin\Debug\Bai14.pdb
+D:\C#\Exercise\Bai14\Bai14\obj\x86\Debug\Bai14.exe
+D:\C#\Exercise\Bai14\Bai14\obj\x86\Debug\Bai14.pdb
+D:\C#\Exercise\Bai14\Bai14\obj\x86\Debug\Bai14.csprojResolveAssemblyReference.cache
