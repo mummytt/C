@@ -26,7 +26,7 @@ namespace Bai1
             Console.WriteLine("Ban {0} nam nay {1} tuoi", strName, iAge);
             DateTime now = DateTime.Now;
             iBirthday = (now.Year - iAge);
-            Console.WriteLine("Ban sinh nam {0}", iBirthday);
+            Console.WriteLine("Ban sinh nam {0}: ", iBirthday);
             Console.ReadLine(); 
         }
     }
